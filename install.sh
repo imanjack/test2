@@ -14,7 +14,7 @@ HUB_NAME="MYHUB"
 apt update && apt install -y build-essential libreadline-dev libssl-dev libncurses5-dev zlib1g-dev ufw
 
 # === DOWNLOAD & COMPILE ===
-wget -O softether.tar.gz https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.43-9799-rtm/softether-vpnserver-v4.43-9799-rtm.tar.gz
+wget -O softether.tar.gz https://www.softether-download.com/files/softether/v4.44-9807-rtm-2025.04.16-tree/Linux/SoftEther_VPN_Server/64bit_-_Intel_x64_or_AMD64/softether-vpnserver-v4.44-9807-rtm-2025.04.16-linux-x64-64bit.tar.gz
 tar xzf softether.tar.gz
 cd vpnserver
 yes 1 | make
